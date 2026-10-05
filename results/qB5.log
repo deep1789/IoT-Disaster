@@ -1,0 +1,154 @@
+skip temporal_gru_s0
+skip temporal_gru_s1
+[temporal_gru_s2]   ep0 loss 0.2211 val_nMAE 0.1795 [31s]
+[temporal_gru_s2]   ep1 loss 0.1814 val_nMAE 0.1799 [58s]
+[temporal_gru_s2]   ep2 loss 0.1695 val_nMAE 0.1701 [82s]
+[temporal_gru_s2]   ep3 loss 0.1649 val_nMAE 0.1646 [106s]
+[temporal_gru_s2]   ep4 loss 0.1604 val_nMAE 0.1603 [129s]
+[temporal_gru_s2]   ep5 loss 0.1569 val_nMAE 0.1590 [152s]
+[temporal_gru_s2]   ep6 loss 0.1562 val_nMAE 0.1588 [174s]
+[temporal_gru_s2]   ep7 loss 0.1564 val_nMAE 0.1589 [196s]
+[temporal_gru_s2] done in 288s
+[temporal_geo_s0]   ep0 loss 0.2360 val_nMAE 0.1747 [35s]
+[temporal_geo_s0]   ep1 loss 0.2004 val_nMAE 0.1644 [72s]
+[temporal_geo_s0]   ep2 loss 0.1919 val_nMAE 0.1669 [96s]
+[temporal_geo_s0]   ep3 loss 0.1881 val_nMAE 0.1576 [120s]
+[temporal_geo_s0]   ep4 loss 0.1865 val_nMAE 0.1578 [143s]
+[temporal_geo_s0]   ep5 loss 0.1858 val_nMAE 0.1600 [173s]
+[temporal_geo_s0]   ep6 loss 0.1867 val_nMAE 0.1569 [203s]
+[temporal_geo_s0]   ep7 loss 0.1841 val_nMAE 0.1569 [239s]
+[temporal_geo_s0] done in 441s
+[temporal_own_s0]   ep0 loss 0.2506 val_nMAE 0.1704 [46s]
+[temporal_own_s0]   ep1 loss 0.2211 val_nMAE 0.1670 [93s]
+[temporal_own_s0]   ep2 loss 0.2143 val_nMAE 0.1730 [139s]
+[temporal_own_s0]   ep3 loss 0.2124 val_nMAE 0.1651 [185s]
+[temporal_own_s0]   ep4 loss 0.2101 val_nMAE 0.1615 [231s]
+[temporal_own_s0]   ep5 loss 0.2098 val_nMAE 0.1636 [328s]
+[temporal_own_s0]   ep6 loss 0.2116 val_nMAE 0.1641 [377s]
+[temporal_own_s0]   ep7 loss 0.2093 val_nMAE 0.1627 [423s]
+[temporal_own_s0] done in 714s
+[temporal_evsamp_s0]   ep0 loss 0.5918 val_nMAE 0.2514 [49s]
+[temporal_evsamp_s0]   ep1 loss 0.5240 val_nMAE 0.1817 [98s]
+[temporal_evsamp_s0]   ep2 loss 0.4936 val_nMAE 0.2045 [146s]
+[temporal_evsamp_s0]   ep3 loss 0.4859 val_nMAE 0.2147 [193s]
+[temporal_evsamp_s0]   ep4 loss 0.4819 val_nMAE 0.1995 [235s]
+[temporal_evsamp_s0]   ep5 loss 0.4706 val_nMAE 0.1832 [283s]
+[temporal_evsamp_s0]   ep6 loss 0.4721 val_nMAE 0.1957 [333s]
+[temporal_evsamp_s0]   ep7 loss 0.4696 val_nMAE 0.1935 [382s]
+[temporal_evsamp_s0] done in 716s
+[loro-MidAtlantic_gru_s0]   ep0 loss 0.2229 val_nMAE 0.1963 [46s]
+[loro-MidAtlantic_gru_s0]   ep1 loss 0.1841 val_nMAE 0.1808 [90s]
+[loro-MidAtlantic_gru_s0]   ep2 loss 0.1695 val_nMAE 0.1724 [136s]
+[loro-MidAtlantic_gru_s0]   ep3 loss 0.1650 val_nMAE 0.1689 [182s]
+[loro-MidAtlantic_gru_s0]   ep4 loss 0.1610 val_nMAE 0.1727 [225s]
+[loro-MidAtlantic_gru_s0]   ep5 loss 0.1603 val_nMAE 0.1700 [272s]
+[loro-MidAtlantic_gru_s0]   ep6 loss 0.1589 val_nMAE 0.1694 [318s]
+[loro-MidAtlantic_gru_s0]   ep7 loss 0.1549 val_nMAE 0.1683 [366s]
+[loro-MidAtlantic_gru_s0] done in 415s
+[loro-MidAtlantic_tf_s0] done in 25s
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-MidAtlantic_lgbm_s0] h=1 iters=193 [30s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-MidAtlantic_lgbm_s0] h=3 iters=593 [76s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-MidAtlantic_lgbm_s0] h=6 iters=600 [117s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-MidAtlantic_lgbm_s0] h=12 iters=600 [174s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-MidAtlantic_lgbm_s0] h=18 iters=63 [190s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-MidAtlantic_lgbm_s0] h=24 iters=48 [204s]
+[loro-MidAtlantic_lgbm_s0] done in 204s
+[loro-OhioValley_gru_s0]   ep0 loss 0.1997 val_nMAE 0.1496 [46s]
+[loro-OhioValley_gru_s0]   ep1 loss 0.1599 val_nMAE 0.1396 [91s]
+[loro-OhioValley_gru_s0]   ep2 loss 0.1481 val_nMAE 0.1441 [138s]
+[loro-OhioValley_gru_s0]   ep3 loss 0.1446 val_nMAE 0.1364 [184s]
+[loro-OhioValley_gru_s0]   ep4 loss 0.1423 val_nMAE 0.1325 [230s]
+[loro-OhioValley_gru_s0]   ep5 loss 0.1429 val_nMAE 0.1328 [275s]
+[loro-OhioValley_gru_s0]   ep6 loss 0.1415 val_nMAE 0.1302 [367s]
+[loro-OhioValley_gru_s0]   ep7 loss 0.1386 val_nMAE 0.1297 [408s]
+[loro-OhioValley_gru_s0] done in 441s
+[loro-OhioValley_tf_s0] done in 24s
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-OhioValley_lgbm_s0] h=1 iters=69 [21s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-OhioValley_lgbm_s0] h=3 iters=237 [44s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-OhioValley_lgbm_s0] h=6 iters=498 [87s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-OhioValley_lgbm_s0] h=12 iters=460 [133s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-OhioValley_lgbm_s0] h=18 iters=459 [180s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-OhioValley_lgbm_s0] h=24 iters=69 [194s]
+[loro-OhioValley_lgbm_s0] done in 195s
+[loro-TexasHill_gru_s0]   ep0 loss 0.2324 val_nMAE 0.1914 [46s]
+[loro-TexasHill_gru_s0]   ep1 loss 0.1895 val_nMAE 0.1761 [92s]
+[loro-TexasHill_gru_s0]   ep2 loss 0.1748 val_nMAE 0.1731 [140s]
+[loro-TexasHill_gru_s0]   ep3 loss 0.1718 val_nMAE 0.1771 [188s]
+[loro-TexasHill_gru_s0]   ep4 loss 0.1678 val_nMAE 0.1697 [234s]
+[loro-TexasHill_gru_s0]   ep5 loss 0.1648 val_nMAE 0.1693 [278s]
+[loro-TexasHill_gru_s0]   ep6 loss 0.1640 val_nMAE 0.1671 [324s]
+[loro-TexasHill_gru_s0]   ep7 loss 0.1639 val_nMAE 0.1672 [369s]
+[loro-TexasHill_gru_s0] done in 396s
+[loro-TexasHill_tf_s0] done in 24s
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-TexasHill_lgbm_s0] h=1 iters=121 [24s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-TexasHill_lgbm_s0] h=3 iters=184 [45s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-TexasHill_lgbm_s0] h=6 iters=590 [88s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-TexasHill_lgbm_s0] h=12 iters=600 [139s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-TexasHill_lgbm_s0] h=18 iters=65 [155s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-TexasHill_lgbm_s0] h=24 iters=51 [168s]
+[loro-TexasHill_lgbm_s0] done in 168s
+[loro-UpperMidwest_gru_s0]   ep0 loss 0.2205 val_nMAE 0.1880 [47s]
+[loro-UpperMidwest_gru_s0]   ep1 loss 0.1809 val_nMAE 0.1731 [92s]
+[loro-UpperMidwest_gru_s0]   ep2 loss 0.1679 val_nMAE 0.1670 [140s]
+[loro-UpperMidwest_gru_s0]   ep3 loss 0.1608 val_nMAE 0.1620 [185s]
+[loro-UpperMidwest_gru_s0]   ep4 loss 0.1584 val_nMAE 0.1608 [231s]
+[loro-UpperMidwest_gru_s0]   ep5 loss 0.1577 val_nMAE 0.1588 [275s]
+[loro-UpperMidwest_gru_s0]   ep6 loss 0.1543 val_nMAE 0.1596 [320s]
+[loro-UpperMidwest_gru_s0]   ep7 loss 0.1542 val_nMAE 0.1589 [365s]
+[loro-UpperMidwest_gru_s0] done in 404s
+[loro-UpperMidwest_tf_s0] done in 23s
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-UpperMidwest_lgbm_s0] h=1 iters=92 [22s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-UpperMidwest_lgbm_s0] h=3 iters=184 [44s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-UpperMidwest_lgbm_s0] h=6 iters=405 [82s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-UpperMidwest_lgbm_s0] h=12 iters=593 [138s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-UpperMidwest_lgbm_s0] h=18 iters=555 [194s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[loro-UpperMidwest_lgbm_s0] h=24 iters=53 [208s]
+[loro-UpperMidwest_lgbm_s0] done in 209s

@@ -1,0 +1,21 @@
+[temporal_ar_s0] done in 114s
+[temporal_tf_s0] done in 107s
+[temporal_full_s0]   ep0 loss 0.2324 val_nMAE 0.1676 [27s]
+[temporal_full_s0]   ep1 loss 0.1962 val_nMAE 0.1572 [54s]
+[temporal_full_s0]   ep2 loss 0.1865 val_nMAE 0.1632 [80s]
+[temporal_full_s0]   ep3 loss 0.1831 val_nMAE 0.1556 [107s]
+[temporal_full_s0]   ep4 loss 0.1802 val_nMAE 0.1539 [134s]
+[temporal_full_s0]   ep5 loss 0.1811 val_nMAE 0.1538 [160s]
+[temporal_full_s0]   ep6 loss 0.1816 val_nMAE 0.1542 [186s]
+[temporal_full_s0]   ep7 loss 0.1787 val_nMAE 0.1536 [211s]
+[temporal_full_s0] done in 391s
+[temporal_full_s1]   ep0 loss 0.2347 val_nMAE 0.1652 [51s]
+[temporal_full_s1]   ep1 loss 0.1968 val_nMAE 0.1576 [103s]
+[temporal_full_s1]   ep2 loss 0.1893 val_nMAE 0.1543 [153s]
+[temporal_full_s1]   ep3 loss 0.1846 val_nMAE 0.1557 [197s]
+[temporal_full_s1]   ep4 loss 0.1835 val_nMAE 0.1578 [224s]
+[temporal_full_s1]   ep5 loss 0.1786 val_nMAE 0.1538 [250s]
+[temporal_full_s1]   ep6 loss 0.1777 val_nMAE 0.1529 [276s]
+[temporal_full_s1]   ep7 loss 0.1771 val_nMAE 0.1527 [302s]
+[temporal_full_s1] done in 484s
+[temporal_full_s2]   ep0 loss 0.2300 val_nMAE 0.1670 [25s]

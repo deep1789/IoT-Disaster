@@ -1,0 +1,54 @@
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal_lgbm_s0] h=1 iters=114 [40s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal_lgbm_s0] h=3 iters=405 [85s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal_lgbm_s0] h=6 iters=597 [138s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal_lgbm_s0] h=12 iters=599 [212s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal_lgbm_s0] h=18 iters=580 [288s]
+/usr/local/lib/python3.11/dist-packages/lightgbm/sklearn.py:1106: LGBMDeprecationWarning: The argument 'eval_set' is deprecated, use 'eval_X' and 'eval_y' instead.
+  eval_set = _validate_eval_set_Xy(eval_set=eval_set, eval_X=eval_X, eval_y=eval_y)
+[temporal_lgbm_s0] h=24 iters=57 [301s]
+[temporal_lgbm_s0] done in 303s
+[temporal_gru_s0]   ep0 loss 0.2162 val_nMAE 0.1765 [27s]
+[temporal_gru_s0]   ep1 loss 0.1802 val_nMAE 0.1759 [52s]
+[temporal_gru_s0]   ep2 loss 0.1651 val_nMAE 0.1596 [81s]
+[temporal_gru_s0]   ep3 loss 0.1585 val_nMAE 0.1569 [109s]
+[temporal_gru_s0]   ep4 loss 0.1613 val_nMAE 0.1564 [135s]
+[temporal_gru_s0]   ep5 loss 0.1555 val_nMAE 0.1581 [161s]
+[temporal_gru_s0]   ep6 loss 0.1542 val_nMAE 0.1555 [187s]
+[temporal_gru_s0]   ep7 loss 0.1515 val_nMAE 0.1550 [212s]
+[temporal_gru_s0] done in 303s
+[temporal_gru_s1]   ep0 loss 0.2177 val_nMAE 0.1751 [55s]
+[temporal_gru_s1]   ep1 loss 0.1763 val_nMAE 0.1745 [81s]
+[temporal_gru_s1]   ep2 loss 0.1660 val_nMAE 0.1749 [110s]
+[temporal_gru_s1]   ep3 loss 0.1590 val_nMAE 0.1620 [137s]
+[temporal_gru_s1]   ep4 loss 0.1596 val_nMAE 0.1585 [163s]
+[temporal_gru_s1]   ep5 loss 0.1570 val_nMAE 0.1583 [187s]
+[temporal_gru_s1]   ep6 loss 0.1551 val_nMAE 0.1567 [210s]
+[temporal_gru_s1]   ep7 loss 0.1521 val_nMAE 0.1551 [233s]
+[temporal_gru_s1] done in 318s
+[temporal_gru_s2]   ep0 loss 0.2202 val_nMAE 0.1763 [23s]
+[temporal_gru_s2]   ep1 loss 0.1775 val_nMAE 0.1685 [45s]
+[temporal_gru_s2]   ep2 loss 0.1682 val_nMAE 0.1683 [67s]
+[temporal_gru_s2]   ep3 loss 0.1623 val_nMAE 0.1654 [89s]
+[temporal_gru_s2]   ep4 loss 0.1578 val_nMAE 0.1623 [113s]
+[temporal_gru_s2]   ep5 loss 0.1574 val_nMAE 0.1563 [138s]
+[temporal_gru_s2]   ep6 loss 0.1505 val_nMAE 0.1550 [162s]
+[temporal_gru_s2]   ep7 loss 0.1525 val_nMAE 0.1555 [187s]
+[temporal_gru_s2] done in 274s
+[temporal_geo_s0]   ep0 loss 0.5928 val_nMAE 0.1944 [23s]
+[temporal_geo_s0]   ep1 loss 0.5254 val_nMAE 0.1796 [47s]
+[temporal_geo_s0]   ep2 loss 0.4996 val_nMAE 0.1959 [70s]
+[temporal_geo_s0]   ep3 loss 0.4929 val_nMAE 0.1923 [93s]
+[temporal_geo_s0]   ep4 loss 0.4860 val_nMAE 0.2126 [116s]
+[temporal_geo_s0]   ep5 loss 0.4805 val_nMAE 0.2059 [139s]
+[temporal_geo_s0]   ep6 loss 0.4814 val_nMAE 0.1906 [162s]
+[temporal_geo_s0]   ep7 loss 0.4731 val_nMAE 0.1951 [186s]

@@ -1,0 +1,6 @@
+data/
+results/preds/
+results/models/
+__pycache__/
+*.pyc
+manuscript/manuscript.html

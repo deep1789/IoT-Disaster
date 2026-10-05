@@ -1,0 +1,8 @@
+[temporal_ev1_s0]   ep0 loss 0.3195 val_nMAE 0.1653 [35s]
+[temporal_ev1_s0]   ep1 loss 0.2837 val_nMAE 0.1597 [66s]
+[temporal_ev1_s0]   ep2 loss 0.2649 val_nMAE 0.1611 [96s]
+[temporal_ev1_s0]   ep3 loss 0.2653 val_nMAE 0.1628 [125s]
+[temporal_ev1_s0]   ep4 loss 0.2609 val_nMAE 0.1645 [154s]
+[temporal_ev1_s0]   ep5 loss 0.2570 val_nMAE 0.1588 [185s]
+[temporal_ev1_s0]   ep6 loss 0.2567 val_nMAE 0.1559 [215s]
+[temporal_ev1_s0]   ep7 loss 0.2581 val_nMAE 0.1570 [244s]

@@ -1,0 +1,16 @@
+DROPPED: none (all 108 candidates retained: 85 crossref_verified, 23 wellknown_unverified).
+
+SUBSTITUTIONS / CORRECTIONS
+- poslad2015: candidate title 'The Internet of Things for disaster management: architectural framework' not found in Crossref. Replaced by the real paper Poslad et al. 2015, 'A Semantic IoT Early Warning System for Natural Environment Crisis Management', IEEE Trans. Emerging Topics in Computing, DOI 10.1109/TETC.2015.2432742 (verify it fits the citing sentence).
+- kratzert2018 / kratzert2019: Crossref top hits were preprints (hess-2018-247, osf); final records used: 10.5194/hess-22-6005-2018 and 10.1029/2019WR026065. (kratzert2019b = HESS 2019 'Towards learning universal, regional, and local hydrological behaviors', added.)
+- diebold1995: NBER technical working paper hit rejected; JBES record 10.1080/07350015.1995.10524599 used.
+- sharma2010: Crossref title is the short 'Sensor faults' (ACM TOSN 6(3), 10.1145/1754414.1754419); full title is 'Sensor faults: Detection methods and prevalence in real-world datasets'. JSON title set to the full title (Crossref stores the short form).
+- chandola2009, chen2016: matched manually after low title-similarity (subtitle/formatting differences).
+- willard2022: Crossref print year is 2023 (ACM CSUR 55(4)); online 2022. Key kept.
+- zounematkermani2021: Crossref year 2020 (J Hydrol 588, 125085); key kept as candidate.
+- grieves2017: book chapter in 'Transdisciplinary Perspectives on Complex Systems' (Springer), type=incollection.
+- angelopoulos2023: Crossref DOI is the book edition (10.1561/9781638281597); venue/volume/pages added from Found. Trends Mach. Learn. 16(4):494-591 (known, not Crossref-returned).
+- hallegatte2012: World Bank working paper, type=report.
+
+WELLKNOWN_UNVERIFIED (no Crossref DOI; real, metadata from memory; no pages given unless certain)
+kipf2017, li2018, bai2018 (arXiv), oreshkin2020, nie2023, hoedt2021, romano2019, gibbs2021, zaffran2022, xu2021, gal2016, lakshminarayanan2017, demsar2006, sundararajan2017, lundberg2017, fisher2019, ke2017, kingma2015, loshchilov2019, paszke2019, pedregosa2011, cao2018, sit2021 (arXiv:2107.07039 only; no journal version known).

@@ -1,0 +1,19 @@
+## 6.7 Spatial generalisation: leave-one-region-out
+
+The leave-one-region-out (LORO) protocol asks whether a model trained in other regions can be commissioned in a new one without local training of predictors. Table 10 compares, region by region, the temporal protocol (all four regions seen in training; same test origins) with the LORO protocol (the region withheld); persistence is a protocol-independent reference.
+
+@@TBL:region@@
+
+*Table 10. Temporal versus leave-one-region-out results by region (test years; neural temporal results are means of three seeds; LORO results are single-seed). Rise-rate corr.: correlation of predicted and observed 3-h rise rates. AP: average precision for action-stage alerts.*
+
+Four findings emerge.
+
+**Region matters more than method.** Predictability differs widely between regions. In the Texas Hill Country, only 4.7% of origins are active and there are 84 action-stage positives, against 19.2% and 539 in the Ohio Valley, and flash-flood rises begin within hours of rainfall that the telemetry cannot see; the persistence active error is 1.74σ there against 1.12σ in the Ohio Valley, and the best action-stage AP in the temporal protocol is 0.06 (TF) against 0.44 in the Mid-Atlantic. A pooled score therefore hides large regional differences, and the Texas result should be read as a statement about the information content of upstream stage alone in a flash-flood regime (Section 7.3).
+
+**In the temporal protocol the full twin is best or tied in every region.** It has the lowest active nMAE in the Mid-Atlantic (0.859, against 0.925 for the vanilla GRU and 0.956 for TF), the Ohio Valley (0.760 against 0.833 and 0.801) and the Upper Midwest (0.910 against 1.010 for both), and ties with the vanilla GRU in Texas (1.381 against 1.379). It also has the best action-stage AP in the Mid-Atlantic (0.445), the Ohio Valley (0.292) and the Upper Midwest (0.351).
+
+**Transfer to an unseen region costs accuracy but retains most of the gain over persistence.** Under LORO, the active nMAE of the full twin increases by 0.08–0.15σ relative to the temporal protocol (to 0.968, 0.913, 1.463 and 1.034 in the four regions), yet remains 25%, 18%, 16% and 23% below persistence. These models never saw a single training sample from the held-out region, and the routing prior was a pooled regression shared by all gauges, so the result shows that much of the learned structure (how a rise at a leading gauge propagates to a lagging one) is transferable across these regions.
+
+**The advantage of the proposed twin over the baselines shrinks under transfer and reverses in Texas.** In the Mid-Atlantic and Upper Midwest the full twin remains best in action-stage AP (0.305 and 0.287, against 0.259 and 0.265 for the vanilla GRU and 0.196 and 0.206 for TF) and in active nMAE (0.968 and 1.034). In the Ohio Valley it ties with the vanilla GRU (active nMAE 0.913 against 0.911) and with TF in AP (0.185 against 0.187). In the Texas Hill Country, the full twin transfers worse than the vanilla GRU (active nMAE 1.463 against 1.417; rise-rate correlation 0.264 against 0.393). The most plausible explanation is that the physics-selected neighbourhoods and routing coefficients, which are well conditioned in the three regions with slower, better-coupled dynamics, are poorly conditioned in a flash-flood regime where the inferred lags sit at the one-hour resolution floor (Table 4) and where a model trained elsewhere imposes a coupling structure that does not apply. We conclude that the proposed twin can be commissioned in a new region of similar dynamics without local model training, but that regions with fundamentally different response times need local training of at least the routing prior and probably higher-resolution telemetry.
+
+## 6.8 Robustness to sensor faults
